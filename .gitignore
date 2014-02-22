@@ -33,3 +33,5 @@ wp-content/plugins/*
 # specify (see the commented-out example for a hint on how to do this.)
 wp-content/themes/*
 !wp-content/themes/dilletantish/
+wp-content/themes/dilletantish/node_modules
+wp-content/themes/dilletantish/assets/libraries
