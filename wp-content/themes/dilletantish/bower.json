@@ -1,0 +1,6 @@
+{
+  "name": "The Dilettantish",
+  "dependencies": {
+    "foundation": "~5.1.1"
+  }
+}

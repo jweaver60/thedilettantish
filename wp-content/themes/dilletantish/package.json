@@ -1,0 +1,12 @@
+{
+  "name": "dilletantish",
+  "version": "0.0.1",
+  "description": "wife's blog",
+  "main": "index.php",
+  "author": "Jacob Weaver",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.5.2",
+    "gulp-sass": "^0.7.1"
+  }
+}
