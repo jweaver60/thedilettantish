@@ -4046,7 +4046,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Englebert', cursive;
+  font-family: 'Unica One', cursive;
   font-weight: normal;
   font-style: normal;
   color: #222;
@@ -4839,11 +4839,9 @@ a {
 
 header h1.site-title a {
   color: #df0084;
-  font-family: 'Homemade Apple', cursive;
-  font-size: 1em;
-  font-weight: bold;
-  margin-top: 1em;
-  display: block; }
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 1.5em;
+  font-weight: bold; }
 
 h1.widget-title {
   font-size: 1.75em; }
