@@ -16,6 +16,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link href='http://fonts.googleapis.com/css?family=Unica+One|Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
 
 <?php wp_head(); ?>
 </head>

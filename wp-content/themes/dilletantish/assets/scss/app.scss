@@ -22,6 +22,7 @@ $seafoam: #17a78e;
 $teal: #64bdae;
 $almost-black: #0b0b0b;
 $raspberry: #df0084;
+$gray: #B8B8BA;
 
 body {
 	background: url('../img/knitting250px.png');
@@ -36,10 +37,18 @@ body {
 	padding: 0 0 1em 0;
 }
 
+p {
+	font-size: 0.95rem;
+	line-height: 1.4;
+}
+
 a {
 	color: $teal;
 	&:hover {
 		color: $seafoam;
+	}
+	&.more-link {
+		text-align: right;
 	}
 }
 
@@ -59,5 +68,102 @@ header {
 h1 {
 	&.widget-title {
 		font-size: 1.75em;
+	}
+	&.entry-title {
+		line-height: 0.6;
+		@media #{$small-only} {
+			margin-top: 0.5em;
+		}
+	}
+}
+
+.attachment-post-thumbnail {
+	line-height: 0;
+	display: inline-block;
+	border: solid 4px #fff;
+	max-width: 100%;
+	-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	&:hover {
+		-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) !important;
+		box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) !important;		
+	}
+}
+
+.entry-meta {
+	width: 100%;
+	.posted-on {
+		width: 100%;
+		a {
+			color: $gray;
+			font-family: 'Unica One', cursive;
+			font-size: 1.25em;
+			text-align: right;
+		}
+	}
+}
+
+footer {
+	&.entry-meta {
+		border-top: dashed 1px $gray;
+		border-bottom: dashed 1px $gray;
+		padding: 0.25em 0;
+		margin-bottom: 3em;
+		color: $gray;
+		font-size: 0.95rem;
+		a {
+			color: $gray;
+		}
+	}
+	.site-info {
+		margin-top: 2em;
+		p {
+			text-align: center;
+			color: $gray;
+			font-size: 0.9rem;
+		}
+	}
+}
+
+i {
+	&.custom-icon {
+		color: $teal;
+	}
+}
+
+.button {
+	background-color: $raspberry;
+	&:hover {
+		background-color: #EB038E;
+	}
+}
+
+aside {
+	&.widget {
+		ul {
+			list-style-type: none;
+			margin-left: 0;
+			li {
+				border-bottom: dashed 1px $gray;
+				&:last-child {
+					border-bottom: none;
+				}
+				a {
+					font-size: 0.95rem;
+				}
+			}
+		}
+	}
+}
+
+.nav-links {
+	.nav-previous {
+		float: left;
+	}
+	.nav-next {
+		float: right;
+	}
+	.clear {
+		clear: both;
 	}
 }
