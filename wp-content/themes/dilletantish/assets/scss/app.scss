@@ -10,7 +10,7 @@ $topbar-menu-icon-color-toggled: #ffffff;
 $topbar-menu-link-color-toggled: #ffffff;
 $topbar-dropdown-label-color: #64bdae;
 $topbar-dropdown-bg: #64bdae;
-$header-font-family: 'Unica One', cursive;
+$header-font-family: 'News Cycle', cursive;
 
 // Import foundation
 @import "../libraries/foundation/scss/foundation";
@@ -57,9 +57,12 @@ header {
 		&.site-title {
 			a {
 				color: $raspberry;
-				font-family: 'Dawning of a New Day', cursive;
+				font-family: 'Codystar', cursive;
 				font-size: 1.5em;
 				font-weight: bold;
+				@media #{small} {
+					font-size: 1.2em;
+				}
 			}
 		}
 	}
@@ -70,7 +73,8 @@ h1 {
 		font-size: 1.75em;
 	}
 	&.entry-title {
-		line-height: 0.6;
+		line-height: 1;
+		color: $teal;
 		@media #{$small-only} {
 			margin-top: 0.5em;
 		}
@@ -96,7 +100,7 @@ h1 {
 		width: 100%;
 		a {
 			color: $gray;
-			font-family: 'Unica One', cursive;
+			font-family: 'News Cycle', cursive;
 			font-size: 1.25em;
 			text-align: right;
 		}

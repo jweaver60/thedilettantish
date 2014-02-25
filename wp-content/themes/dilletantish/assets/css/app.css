@@ -4046,7 +4046,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Unica One', cursive;
+  font-family: 'News Cycle', cursive;
   font-weight: normal;
   font-style: normal;
   color: #222;
@@ -4845,14 +4845,18 @@ a {
 
 header h1.site-title a {
   color: #df0084;
-  font-family: 'Dawning of a New Day', cursive;
+  font-family: 'Codystar', cursive;
   font-size: 1.5em;
   font-weight: bold; }
+  @media small {
+    header h1.site-title a {
+      font-size: 1.2em; } }
 
 h1.widget-title {
   font-size: 1.75em; }
 h1.entry-title {
-  line-height: 0.6; }
+  line-height: 1;
+  color: #64bdae; }
   @media only screen and (max-width: 40em) {
     h1.entry-title {
       margin-top: 0.5em; } }
@@ -4874,7 +4878,7 @@ h1.entry-title {
     width: 100%; }
     .entry-meta .posted-on a {
       color: #B8B8BA;
-      font-family: 'Unica One', cursive;
+      font-family: 'News Cycle', cursive;
       font-size: 1.25em;
       text-align: right; }
 
