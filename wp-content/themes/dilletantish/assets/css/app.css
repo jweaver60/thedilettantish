@@ -4846,11 +4846,14 @@ a {
 header h1.site-title a {
   color: #df0084;
   font-family: 'Codystar', cursive;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: bold; }
-  @media small {
+  @media only screen and (max-width: 40em) {
     header h1.site-title a {
-      font-size: 1.2em; } }
+      font-size: 1em; } }
+  @media only screen and (min-width:40.063em) and (max-width:64em) {
+    header h1.site-title a {
+      font-size: 1em; } }
 
 h1.widget-title {
   font-size: 1.75em; }

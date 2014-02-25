@@ -58,10 +58,13 @@ header {
 			a {
 				color: $raspberry;
 				font-family: 'Codystar', cursive;
-				font-size: 1.5em;
+				font-size: 1.25em;
 				font-weight: bold;
-				@media #{small} {
-					font-size: 1.2em;
+				@media #{$small-only} {
+					font-size: 1em;
+				}
+				@media #{$medium-only} {
+					font-size: 1em;
 				}
 			}
 		}
