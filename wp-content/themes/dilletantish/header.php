@@ -38,7 +38,7 @@
           <li><a href="http://www.pinterest.com/beegeeweave/" target="_blank"><i class="fa fa-pinterest fa-2x"></i></a></li>
           <li><a href="http://www.twitter.com/beegeebeelane/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
           <li><a href="http://www.facebook.com/bethany.lane.52" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
-          <li><a href="http://www.instagram.com/beegeeweave" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+          <li><a href="http://instagram.com/beegeeweave" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
         </ul>
       </div>
     </div>
